@@ -3,12 +3,13 @@ package consoleRPG.gameEngine.characterCreator;
 import consoleRPG.gameEngine.character.Character;
 import consoleRPG.gameEngine.character.equipment.Weapon;
 import consoleRPG.gameEngine.character.stats.Stats;
+import consoleRPG.scanner.ParsableScanner;
 
 import java.util.Scanner;
 
 public class CharacterCreator {
-    public static Character createEnemyCharacter(){
-        return new Character(false, "Enemy", new Stats(10,20,4,4,4,4,4));
+    public static Character createEnemyCharacter() {
+        return new Character(false, "Enemy", new Stats(10, 20, 4, 4, 4, 4, 4));
     }
 
     public static Character createPlayerCharacter() {
@@ -33,7 +34,7 @@ public class CharacterCreator {
         String name;
         System.out.println("Select your initial weapon: ");
         System.out.println("Sword (1) | Bow (2) | Staff (3): ");
-        option = in.nextInt();
+        option = ParsableScanner.nextParsedInt(in, 1, 2, 3);
         in.nextLine();
         System.out.print("Now input the name of your weapon: ");
         name = in.nextLine();
