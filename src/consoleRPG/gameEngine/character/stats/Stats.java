@@ -93,6 +93,10 @@ public class Stats {
         }
     }
 
+    public void setLifeCurrent(int lifeCurrent) {
+        this.lifeCurrent = lifeCurrent;
+    }
+
     public void modifyStatsPointsRemaining(int modification) {
         this.statsPointsRemaining += modification;
     }

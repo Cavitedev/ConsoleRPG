@@ -1,4 +1,4 @@
-package consoleRPG.scanner;
+package consoleRPG.ExtraUtil.Scanner;
 import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -2,7 +2,7 @@ package consoleRPG.gameEngine.character;
 
 import consoleRPG.gameEngine.character.stats.Stats;
 import consoleRPG.gameEngine.character.equipment.*;
-import consoleRPG.scanner.ParsableScanner;
+import consoleRPG.ExtraUtil.Scanner.ParsableScanner;
 
 import java.util.Scanner;
 

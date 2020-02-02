@@ -1,4 +1,4 @@
-package consoleRPG.scanner;
+package consoleRPG.ExtraUtil.Scanner;
 
 import org.jetbrains.annotations.NotNull;
 

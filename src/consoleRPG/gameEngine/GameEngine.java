@@ -19,7 +19,7 @@ public class GameEngine {
         enemy.toString();
         enemyTeam.add(enemy);
 
-        Combat.combat(playerTeam, enemyTeam);
+        Combat.newCombat(playerTeam, enemyTeam);
 
 
 

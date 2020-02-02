@@ -3,9 +3,10 @@ package consoleRPG.gameEngine.characterCreator;
 import consoleRPG.gameEngine.character.Character;
 import consoleRPG.gameEngine.character.equipment.Weapon;
 import consoleRPG.gameEngine.character.stats.Stats;
-import consoleRPG.scanner.ParsableScanner;
+import consoleRPG.ExtraUtil.Scanner.ParsableScanner;
 
 import java.util.Scanner;
+
 
 public class CharacterCreator {
     public static Character createEnemyCharacter() {
