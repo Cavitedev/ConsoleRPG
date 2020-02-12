@@ -124,6 +124,7 @@ public class Character implements Comparable<Character> {
     @Override
     public int compareTo(Character o) {
         return Integer.compare(o.getStats().getSpeed(),stats.getSpeed());
+
     }
 }
 
