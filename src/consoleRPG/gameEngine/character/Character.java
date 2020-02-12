@@ -123,13 +123,7 @@ public class Character implements Comparable<Character> {
 
     @Override
     public int compareTo(Character o) {
-        if (o.getStats().getSpeed() < stats.getSpeed()) {
-            return -1;
-        } else if (o.stats.getSpeed() > stats.getSpeed()) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return Integer.compare(o.getStats().getSpeed(),stats.getSpeed());
     }
 }
 
